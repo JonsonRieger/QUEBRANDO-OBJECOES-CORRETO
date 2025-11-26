@@ -17,7 +17,7 @@
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="/og-image.png">
 
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel Code (HEAD) -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -30,14 +30,18 @@
       fbq('init', '1822772701749410');
       fbq('track', 'PageView');
     </script>
-    <noscript>
-      <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1822772701749410&ev=PageView&noscript=1"/>
-    </noscript>
     <!-- End Meta Pixel Code -->
   </head>
 
   <body>
+
+    <!-- Meta Pixel NoScript (BODY) -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1822772701749410&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel NoScript -->
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
